@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_naics",
+  "info": {
+    "displayName": "Naics",
+    "icon": "arrow-circle-left"
+  },
+  "options": {},
+  "attributes": {
+    "naicsCode": {
+      "type": "biginteger"
+    },
+    "naicsDescription": {
+      "type": "string"
+    },
+    "sbaSmallBusiness": {
+      "type": "string"
+    },
+    "naicsException": {
+      "type": "string"
+    }
+  }
+}

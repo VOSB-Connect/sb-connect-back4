@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_business_types",
+  "info": {
+    "displayName": "BusinessType",
+    "icon": "arrow-alt-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "businessTypeCode": {
+      "type": "string"
+    },
+    "businessTypeDesc": {
+      "type": "string"
+    }
+  }
+}

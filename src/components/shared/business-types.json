@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_shared_business_types",
+  "info": {
+    "displayName": "businessTypes",
+    "icon": "arrow-alt-circle-up"
+  },
+  "options": {},
+  "attributes": {
+    "businessTypeList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.business-type"
+    },
+    "sbaBusinessTypeList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.sba-business-type"
+    }
+  }
+}

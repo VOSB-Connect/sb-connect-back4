@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_sba_business_types",
+  "info": {
+    "displayName": "SbaBusinessType",
+    "icon": "at"
+  },
+  "options": {},
+  "attributes": {
+    "sbaBusinessTypeCode": {
+      "type": "string"
+    },
+    "sbaBusinessTypeDesc": {
+      "type": "string"
+    },
+    "certificationEntryDate": {
+      "type": "date"
+    },
+    "certificationExitDate": {
+      "type": "date"
+    }
+  }
+}

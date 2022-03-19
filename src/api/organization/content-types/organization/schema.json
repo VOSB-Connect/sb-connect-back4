@@ -1,0 +1,100 @@
+{
+  "kind": "collectionType",
+  "collectionName": "organizations",
+  "info": {
+    "singularName": "organization",
+    "pluralName": "organizations",
+    "displayName": "Organization",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ueiSAM": {
+      "type": "string"
+    },
+    "cageCode": {
+      "type": "string",
+      "unique": true,
+      "required": true,
+      "maxLength": 5
+    },
+    "legalBusinessName": {
+      "type": "string"
+    },
+    "dbaName": {
+      "type": "string"
+    },
+    "purposeOfRegistrationCode": {
+      "type": "string"
+    },
+    "purposeOfRegistrationDesc": {
+      "type": "string"
+    },
+    "registrationStatus": {
+      "type": "string"
+    },
+    "registrationDate": {
+      "type": "string"
+    },
+    "lastUpdateDate": {
+      "type": "string"
+    },
+    "expirationDate": {
+      "type": "string"
+    },
+    "noPublicDisplayFlag": {
+      "type": "string"
+    },
+    "exclusionStatusFlag": {
+      "type": "string"
+    },
+    "exclusionURL": {
+      "type": "string"
+    },
+    "entityURL": {
+      "type": "string"
+    },
+    "entityDivisionName": {
+      "type": "string"
+    },
+    "entityDivisionNumber": {
+      "type": "string"
+    },
+    "entityStartDate": {
+      "type": "string"
+    },
+    "fiscalYearEndCloseDate": {
+      "type": "string"
+    },
+    "congressionalDistrict": {
+      "type": "string"
+    },
+    "primaryNaics": {
+      "type": "string"
+    },
+    "user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "organization"
+    },
+    "naicsList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.naics"
+    },
+    "entityPOC": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.point-of-contact"
+    },
+    "businessTypes": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.business-types"
+    }
+  }
+}
