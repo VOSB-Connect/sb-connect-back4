@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_awards",
+  "info": {
+    "displayName": "award",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "date": {
+      "type": "datetime"
+    },
+    "number": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "string"
+    },
+    "awardee": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.awardee"
+    }
+  }
+}

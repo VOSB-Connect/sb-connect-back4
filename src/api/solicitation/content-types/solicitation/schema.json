@@ -1,0 +1,81 @@
+{
+  "kind": "collectionType",
+  "collectionName": "solicitations",
+  "info": {
+    "singularName": "solicitation",
+    "pluralName": "solicitations",
+    "displayName": "Solicitation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "noticeId": {
+      "type": "string",
+      "unique": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "solicitationNumber": {
+      "type": "string"
+    },
+    "department": {
+      "type": "string"
+    },
+    "subTier": {
+      "type": "string"
+    },
+    "office": {
+      "type": "string"
+    },
+    "postedDate": {
+      "type": "datetime"
+    },
+    "type": {
+      "type": "string"
+    },
+    "baseType": {
+      "type": "string"
+    },
+    "archiveType": {
+      "type": "string"
+    },
+    "archiveDate": {
+      "type": "datetime"
+    },
+    "typeOfSetAsideDescription": {
+      "type": "string"
+    },
+    "typeOfSetAside": {
+      "type": "string"
+    },
+    "responseDeadLine": {
+      "type": "datetime"
+    },
+    "naicsCode": {
+      "type": "string"
+    },
+    "classificationCode": {
+      "type": "string"
+    },
+    "active": {
+      "type": "string"
+    },
+    "uiLink": {
+      "type": "string"
+    },
+    "award": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.award"
+    },
+    "pointOfContact": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.point-of-contact"
+    }
+  }
+}

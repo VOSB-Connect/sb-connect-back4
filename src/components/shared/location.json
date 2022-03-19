@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_shared_locations",
+  "info": {
+    "displayName": "Location",
+    "icon": "award",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "streetAddress": {
+      "type": "string"
+    },
+    "city": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.city"
+    },
+    "state": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.state"
+    },
+    "zip": {
+      "type": "string"
+    },
+    "country": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.country"
+    }
+  }
+}

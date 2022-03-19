@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_states",
+  "info": {
+    "displayName": "state",
+    "icon": "bone"
+  },
+  "options": {},
+  "attributes": {
+    "code": {
+      "type": "string"
+    }
+  }
+}

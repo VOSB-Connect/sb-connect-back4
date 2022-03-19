@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_countries",
+  "info": {
+    "displayName": "country",
+    "icon": "bomb"
+  },
+  "options": {},
+  "attributes": {
+    "code": {
+      "type": "string"
+    }
+  }
+}

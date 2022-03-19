@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_cities",
+  "info": {
+    "displayName": "City",
+    "icon": "bong"
+  },
+  "options": {},
+  "attributes": {
+    "code": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}
