@@ -6,15 +6,15 @@
     "description": "",
     "termsOfService": "YOUR_TERMS_OF_SERVICE_URL",
     "contact": {
-      "name": "TEAM",
-      "email": "contact-email@something.io",
-      "url": "mywebsite.io"
+      "name": "CAPTR TEAM",
+      "email": "vosb.team@gmail.com",
+      "url": "https://hub-connect.netlify.app"
     },
     "license": {
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-03-19T20:32:24.842Z"
+    "x-generation-date": "2022-03-19T20:52:03.090Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -23,17 +23,30 @@
     "plugins": [
       "email",
       "upload"
+    ],
+    "pluginsForWhichToGenerateDoc": [
+      "email",
+      "upload",
+      "users-permissions"
     ]
   },
   "servers": [
     {
-      "url": "http://localhost:1339/api",
+      "url": "http://localhost:1337",
       "description": "Development server"
+    },
+    {
+      "url": "YOUR_STAGING_SERVER",
+      "description": "Staging server"
+    },
+    {
+      "url": "https://captr-strapi.herokuapp.com",
+      "description": "Production server"
     }
   ],
   "externalDocs": {
     "description": "Find out more",
-    "url": "https://docs.strapi.io/developer-docs/latest/getting-started/introduction.html"
+    "url": "https://strapi.io/documentation/"
   },
   "security": [
     {
@@ -8904,5 +8917,6 @@
         "operationId": "delete/upload/files/{id}"
       }
     }
-  }
+  },
+  "tags": []
 }
